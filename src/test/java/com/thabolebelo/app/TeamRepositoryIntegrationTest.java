@@ -12,25 +12,25 @@ import static org.assertj.core.api.Assertions.*;
 @RunWith(SpringRunner.class)
 public class TeamRepositoryIntegrationTest {
 
-    @Autowired
-    private TestEntityManager entityManager;
+    //@Autowired
+    //private TestEntityManager entityManager;
 
-    @Autowired
-    private TeamRepository teamRepository;
+    //@Autowired
+    //private TeamRepository teamRepository;
 
     @Test
     public void whenFindByName_returnEmployee() {
-//        //given this details
-//        Team touch = new Team((long) 5,"Thabo", "Lebelo", "Developer");
-//
-//        entityManager.persist(touch);
-//        entityManager.flush();
-//
-//        //when this occurs
-//        Team found = teamRepository.findByFirstName(touch.getFirstName());
-//
-//        //then
-//        assertThat(found.getFirstName()).isEqualTo(touch.getFirstName());
+        //given this details
+        //Team touch = new Team((long) 5,"Thabo", "Lebelo", "Developer");
+
+        //entityManager.persist(touch);
+        //entityManager.flush();
+
+        //when this occurs
+        //Team found = teamRepository.findByFirstName(touch.getFirstName());
+
+        //then
+        //assertThat(found.getFirstName()).isEqualTo(touch.getFirstName());
 
     }
 
